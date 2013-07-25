@@ -12,7 +12,7 @@
             <Canvas x:Name="Canvas" Background="Black" />
         </ScrollViewer>
         <Expander Grid.Column="1" ExpandDirection="Left" IsExpanded="False">
-            <StackPanel Grid.Column="1" Width="100">
+            <StackPanel Width="100">
                 <TextBlock>
                     <Run Text="Scale: "/>
                     <Run Text="{Binding ElementName=ScaleSlider, StringFormat=0, Path=Value, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" />
